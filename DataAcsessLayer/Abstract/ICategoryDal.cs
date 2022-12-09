@@ -9,5 +9,6 @@ namespace DataAcsessLayer.Abstract
 {
     public interface ICategoryDal : IRepository<Category>
     {
+
     }
 }
