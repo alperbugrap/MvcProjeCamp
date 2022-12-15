@@ -25,7 +25,7 @@ namespace MvcProjeCamp.Controllers
             List<SelectListItem> valueCategory = (from x in cm.GetList()
                                                   select new SelectListItem
                                                   {
-                                                      Text = x.CategoryName,           //Dropdown'da bir ValueMember bir de DisplayMember vardır DiplayMember ad değişkeni
+                                                      Text = x.CategoryName,           //Dropdown'da bir ValueMember bir de DisplayMember vardır DisplayMember ad değişkeni
                                                       Value = x.CategoryID.ToString()  //ValeMember Id değişkenidir
 
                                                   }).ToList();

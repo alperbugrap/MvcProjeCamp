@@ -76,6 +76,7 @@
     <Compile Include="EntityFramework\EfContentDal.cs" />
     <Compile Include="EntityFramework\EfHeadingDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
+<<<<<<< HEAD
     <Compile Include="Migrations\202212111731290_mig_writer_edit.cs" />
     <Compile Include="Migrations\202212111731290_mig_writer_edit.designer.cs">
       <DependentUpon>202212111731290_mig_writer_edit.cs</DependentUpon>
@@ -96,6 +97,8 @@
     <Compile Include="Migrations\202212131303080_mig_writer_addstatus.designer.cs">
       <DependentUpon>202212131303080_mig_writer_addstatus.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 144020586b0150ece73c60110bd25ca688cabeae
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

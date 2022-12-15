@@ -61,16 +61,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\ICategoryService.cs" />
+<<<<<<< HEAD
     <Compile Include="Abstract\IContentService.cs" />
     <Compile Include="Abstract\IHeadingService.cs" />
     <Compile Include="Abstract\IWriterService.cs" />
+=======
+>>>>>>> 144020586b0150ece73c60110bd25ca688cabeae
     <Compile Include="Concrete\CategoryManager.cs" />
     <Compile Include="Concrete\ContentManager.cs" />
     <Compile Include="Concrete\HeadingManager.cs" />
     <Compile Include="Concrete\WriterManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidationRules\CategoryValidator.cs" />
+<<<<<<< HEAD
     <Compile Include="ValidationRules\WriterValidator.cs" />
+=======
+>>>>>>> 144020586b0150ece73c60110bd25ca688cabeae
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAcsessLayer\DataAcsessLayer.csproj">

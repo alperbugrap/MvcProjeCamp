@@ -57,6 +57,7 @@ namespace MvcProjeCamp.Controllers
             var categoryValue = cm.GetByID(id);
             return View(categoryValue);
         }
+<<<<<<< HEAD
 
         [HttpPost]
         public ActionResult EditCategory(Category category)
@@ -64,5 +65,7 @@ namespace MvcProjeCamp.Controllers
             cm.CategoryUpdate(category);
             return RedirectToAction("Index");
         }
+=======
+>>>>>>> 144020586b0150ece73c60110bd25ca688cabeae
     }
 }
